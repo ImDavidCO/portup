@@ -23,7 +23,7 @@ const Section = styled.div`
 const Container = styled.div`
   height: 100%;
   scroll-snap-align: center;
-  width: 1250px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 
@@ -123,14 +123,14 @@ const Img = styled.img`
 
 const Hero = () => {
   return (
-    <Section>
+    <Section id='hero'>
       <Navbar/>
       <Container>
         <LHero>
           <Title>Crafting digital experiences.</Title>
           <WorkWMe>
             <Slogan>Unlock your digital potential with my web development expertise.</Slogan>
-            <Button>Learn More</Button>
+            <a href='#contact'><Button>Learn More</Button></a>
           </WorkWMe>
         </LHero>
         <RHero>

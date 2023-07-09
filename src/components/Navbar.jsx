@@ -79,15 +79,11 @@ const Navbar = () => {
             <Links>
                 <Logo src="./img/logo.png"/>
                 <List>
-                    <ListItem>Home</ListItem>
-                    <ListItem>About Me</ListItem>
-                    <ListItem>Works</ListItem>
-                    <ListItem>Contact Me</ListItem>
                 </List>
             </Links>
             <Icons>
                 <Icon src="./img/search.png"/>
-                <Button>Hire Now</Button>
+                <a href='#contact'><Button>Hire Now</Button></a>
             </Icons>
         </Container>
     </Section>

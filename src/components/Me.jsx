@@ -91,7 +91,7 @@ const Button = styled.button`
 
 const Me = () => {
   return (
-    <Section>
+    <Section id='me'>
       <Container>
         <LMe> 
           <Canvas camera={{fov:3, position:[5,5,5]}} >
